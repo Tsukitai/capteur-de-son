@@ -1,1 +1,13 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="_(l^eq*5!hyBX9Cx[J($" x="20" y="20"/><block type="device_forever" id="=+%RdHnF~m3_CLZCUK29" x="225" y="20"/></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="_(l^eq*5!hyBX9Cx[J($" x="0" y="0"/><block type="input_on_sound" id="HXbUOX:n!f+HZY%,,,#C" x="294" y="94"><field name="sound">DetectedSound.Loud</field><statement name="HANDLER"><block type="input_set_sound_threshold" id="6eq]R3@7+.vKwbX@8C,_"><field name="sound">SoundThreshold.Loud</field><value name="value"><shadow type="math_number_minmax" id="CSp9bfwdQ{ZM~bLu/|mK"><mutation min="0" max="255" label="Threshold" precision="0"/><field name="SLIDER">100</field></shadow></value><next><block type="device_show_leds" id="WFWaHc_Y7#}GLD[Vqxl2"><field name="LEDS">`
+        . # . # . 
+        # # # # # 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field></block></next></block></statement></block><block type="input_on_sound" id="PbIkeMUG?te,S-Z;A$pI" x="338" y="434"><field name="sound">DetectedSound.Quiet</field><statement name="HANDLER"><block type="input_set_sound_threshold" id="-oS[SS~+%v4v(yQREftw"><field name="sound">SoundThreshold.Quiet</field><value name="value"><shadow type="math_number_minmax" id="By}:|G#NMfeV%v{xTWgG"><mutation min="0" max="255" label="Threshold" precision="0"/><field name="SLIDER">99</field></shadow></value><next><block type="device_show_leds" id="cXOQX9,Br`Dd0ncHzDMZ"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . # # # . 
+        . . # . . 
+        . . . . .
+        `</field></block></next></block></statement></block></xml>
